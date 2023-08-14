@@ -160,7 +160,7 @@ pub use frame::Function;
 pub use frame::Exception;
 pub use frame::request::*;
 pub use frame::response::Response;
-
+pub use frame::Head;
 pub mod codec;
 pub mod util;
 
