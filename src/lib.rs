@@ -164,5 +164,5 @@ pub use frame::Head;
 pub mod codec;
 pub mod util;
 
-mod frame;
+pub mod frame;
 
