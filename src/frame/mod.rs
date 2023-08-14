@@ -489,10 +489,10 @@ pub struct Head {
     pub(crate) length: u16,
 
     /// Server address(Tcp) or Slave address(Rtu)
-    pub(crate) uid: u8,
+    pub uid: u8,
 
     /// Modbus Function
-    pub(crate) function: Function,
+    pub function: Function,
 
     /// Frame version
     pub(crate) version: Version,
