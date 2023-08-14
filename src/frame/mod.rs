@@ -480,7 +480,7 @@ pub enum Version {
 #[derive(Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct Head {
     /// Transaction Identifier
-    pub(crate) tid: u16,
+    pub tid: u16,
 
     /// Protocol Identifier
     pub(crate) pid: u16,
